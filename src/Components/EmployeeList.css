@@ -1,7 +1,7 @@
 .employee-table {
-  width: 70%; /* Set the desired width for the table */
-  margin: 0 auto; /* Center the table horizontally */
-  margin-top: 20px; /* Add some top margin for spacing */
+  width: 70%; 
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 
@@ -12,7 +12,7 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-bottom: 10px; /* Add margin to separate rows */
+  margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
