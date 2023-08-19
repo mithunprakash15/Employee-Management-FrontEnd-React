@@ -1,38 +1,54 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.EmployeeForm {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.EmployeeCard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.EmployeeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.EmployeeTable th,
+.EmployeeTable td {
+  padding: 10px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.EmployeeTable th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.EmployeeTable .even {
+  background-color: #f9f9f9;
+}
+
+.EmployeeTable .odd {
+  background-color: #ffffff;
+}
+
+.EmployeeTable tr:hover {
+  background-color: #e0e0e0;
+}
+
+.EmployeePhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
